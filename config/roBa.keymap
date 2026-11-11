@@ -60,7 +60,7 @@
         };
 
         cut {
-            bindings = <&kp LC(X)>;
+            bindings = <&kp LC(LS(V))>;
             key-positions = <18 20>;
         };
 
@@ -98,7 +98,7 @@
 &kp Q             &kp W    &kp E         &kp R                            &kp T                                                              &kp Y        &kp U  &lt 3 I    &kp O    &kp P
 &kp A             &kp S    &kp D         &kp F                            &kp G        &kp AT_SIGN                    &kp LS(N8)             &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X    &kp C         &kp V                            &kp B        &kp EQUAL                      &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LCTRL         &kp TAB  &kp LEFT_ALT  &mt LS(LEFT_SHIFT) INT_MUHENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_KANA      &kp BACKSPACE          &lt 2 ENTER                             &kp EXCLAMATION
+&mt LCTRL ESCAPE  &kp TAB  &kp LEFT_ALT  &mt LS(LEFT_SHIFT) INT_MUHENKAN  &lt 1 SPACE  &lt_to_layer_0 3 INT_KANA      &kp BACKSPACE          &lt 2 ENTER                             &kp EXCLAMATION
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
